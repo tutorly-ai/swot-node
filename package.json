@@ -1,16 +1,14 @@
 {
-  "name": "swot-node",
-  "version": "2.0.1489",
+  "name": "@rayyantahir/swot-node",
+  "version": "2.0.1490",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "repository": "https://github.com/marvinschopf/swot-node.git",
+  "repository": "https://github.com/RayyanLaunchVisory/swot-node.git",
   "homepage": "https://swot.js.org",
   "description": "🏫 Identify email addresses or domains names that belong to colleges or universities. Help automate the process of approving or rejecting academic discounts.",
-  "funding": "https://sponsor.marvinschopf.com/swot-node",
   "author": {
-    "name": "Marvin Schopf",
-    "email": "marvin@schopf.biz",
-    "url": "https://www.marvinschopf.com"
+    "name": "Rayyan Tahir",
+    "email": "rayyan@launchvisory.com"
   },
   "keywords": [
     "swot",
