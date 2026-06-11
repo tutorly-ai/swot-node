@@ -1,4 +1,9 @@
 # Swot 🍎
+
+> **`@tutorly-ai` fork.** This is a fork of [marvinschopf/swot-node](https://github.com/marvinschopf/swot-node)
+> published as [`@tutorly-ai/swot-node`](https://www.npmjs.com/package/@tutorly-ai/swot-node).
+> **Maintainers:** to refresh the dataset and republish, see [MAINTAINING.md](MAINTAINING.md).
+
 [![Node.js CI](https://github.com/marvinschopf/swot-node/workflows/Node.js%20CI/badge.svg?branch=main&style=flat-square)](https://github.com/marvinschopf/swot-node/actions/workflows/node.js.yml) [![Package Quality](https://packagequality.com/shield/swot-node.svg?style=flat-square)](https://packagequality.com/#?package=swot-node) [![Dependencies](https://img.shields.io/david/marvinschopf/swot-node?style=flat-square)](https://github.com/marvinschopf/swot-node/network/dependencies) [![Downloads](https://img.shields.io/npm/dt/swot-node?style=flat-square)](https://www.npmjs.com/package/swot-node) [![Last commit](https://img.shields.io/github/last-commit/marvinschopf/swot-node?style=flat-square)](https://github.com/marvinschopf/swot-node/commits/main)
 
 If you have a product or service and offer **academic discounts**, there's a good chance there's some manual component to the approval process. Perhaps `.edu` email addresses are automatically approved because, for the most part at least, they're associated with American post-secondary educational institutions. Perhaps `.ac.uk` email addresses are automatically approved because they're guaranteed to belong to British universities and colleges. Unfortunately, not every country has an education-specific TLD (Top Level Domain) and plenty of schools use `.com` or `.net`.

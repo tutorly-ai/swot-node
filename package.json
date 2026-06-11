@@ -37,6 +37,7 @@
   },
   "scripts": {
     "build": "tsc",
+    "update-data": "bash scripts/update-data.sh",
     "release": "npm run build && set -a && . ./.env && npm publish",
     "test": "mocha -r ts-node/register tests/**/*.test.ts",
     "coverage": "nyc -r lcov -e .ts -x \"*.test.ts\" npm run test"
