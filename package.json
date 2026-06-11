@@ -16,7 +16,10 @@
     "verify school emails"
   ],
   "license": "Apache-2.0",
-  "private": false,
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://registry.npmjs.org"
+  },
   "devDependencies": {
     "@types/chai": "^4.2.14",
     "@types/mocha": "^8.2.0",
@@ -34,6 +37,7 @@
   },
   "scripts": {
     "build": "tsc",
+    "release": "npm run build && npm publish",
     "test": "mocha -r ts-node/register tests/**/*.test.ts",
     "coverage": "nyc -r lcov -e .ts -x \"*.test.ts\" npm run test"
   },
